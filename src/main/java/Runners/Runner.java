@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         glue = {"StepDefinition"},
         plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json",
                 "junit:target/cucumber-reports/Cucumber.xml",
-                "html:target/cucumber-reports.html" }, monochrome = true
-        //tags = "@RegressionTest"
+                "html:target/cucumber-reports.html" },
+        tags = "~@ui", monochrome = true
 )
 public class Runner {
 }
