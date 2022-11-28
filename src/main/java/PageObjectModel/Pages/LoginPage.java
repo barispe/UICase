@@ -12,7 +12,7 @@ public class LoginPage extends LoginPageConstants {
     Log log= new Log();
 
     public void typeEmail(){
-        type(EmailInputTextLocator,"perveroglubaris@gmail.com");
+        type(EmailInputTextLocator,"testemailbaris@gmail.com");
         log.info("Mail is typed");
     }
 
@@ -21,7 +21,7 @@ public class LoginPage extends LoginPageConstants {
     }
 
     public void typePassword(){
-        type(PasswordInputTextLocator,"Federer123");
+        type(PasswordInputTextLocator,"TESTTEST99");
     }
 
     public void clickLoginButtonAfterPassword(){
